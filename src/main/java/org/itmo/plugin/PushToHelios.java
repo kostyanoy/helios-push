@@ -8,8 +8,8 @@ import java.io.IOException;
 public class PushToHelios extends DefaultTask {
     String[] files = new String[0];
     String projectName = "project";
-    String isu = "367379";
-    String folderPath = "~/labs/programming";
+    String isu = "123456";
+    String folderPath = "~";
     int waitingTime = 200;
 
     @TaskAction
