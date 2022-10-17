@@ -25,7 +25,7 @@ helios() {
 
 # parameters description
 projectName - the name of your project on helios  
-isu - your isu in the itmo
-folderPath - folder to which you want copy your files
-files - array of the names of the files and dirs you want to copy 
-(everything will be store in the folder with name of the projectName parameter)
+isu - your isu in the itmo  
+folderPath - folder to which you want copy your files  
+files - array of the names of the files and dirs you want to copy  
+(everything will be store in the folder with name of the projectName parameter)  
