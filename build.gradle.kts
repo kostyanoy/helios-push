@@ -5,8 +5,8 @@ plugins {
     id("com.gradle.plugin-publish") version "1.0.0-rc-1"
 }
 
-group = "org.itmo.kostyanoy"
-version = "1.0.1"
+group = "io.github.kostyanoy"
+version = "1.0"
 
 //publishing.repositories.maven("$buildDir/repo")
 publishing {
@@ -34,9 +34,9 @@ pluginBundle {
 gradlePlugin {
     plugins {
         create("helios-push") {
-            id = "org.itmo.kostyanoy.helios-push"
+            id = "io.github.kostyanoy.helios-push"
             displayName = "Helios Push Plugin"
-            description = "This plugin allows you to push your dirs to the helios server by setting up parameters only once"
+            description = "This plugin allows you to push your files to the helios server by setting up parameters only once"
             implementationClass = "org.itmo.plugin.Helios"
         }
     }
