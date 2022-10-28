@@ -18,7 +18,7 @@ Add these lines to your **build.gradle** file
 
 <pre>
 plugins {
-  id 'io.github.kostyanoy.helios-push' version '1.0'
+  id 'io.github.kostyanoy.helios-push' version '1.0.1'
 }
 
 helios() {

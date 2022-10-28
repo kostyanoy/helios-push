@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "io.github.kostyanoy"
-version = "1.0"
+version = "1.0.1"
 
 //publishing.repositories.maven("$buildDir/repo")
 publishing {
