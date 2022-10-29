@@ -35,9 +35,31 @@ helios() {
 }
 </pre>
 
+Kotlin DSL
+<pre>
+plugins {
+    id("io.github.kostyanoy.helios-push") version "1.0.1"
+}
+
+tasks.helios {
+    projectName = "projectName"
+    isu = "123456"
+    folderPath = "~/labs/programming"
+    val arr = arrayOf<String>(
+        "src",
+        "build/libs/lab3-1.0-SNAPSHOT.jar",
+        "build.gradle.kts",
+        "settings.gradle.kts",
+        "gradlew",
+        "gradle"
+    )
+    files = arr
+}
+</pre>
+
 ### Parameters description
 **projectName** - the name of your project on helios  
 **isu** - your isu in the itmo  
-**folderPath** - folder to which you want copy your files  
+**folderPath** - path to folder on helios to which you want copy your files  
 **files** - array of the names of the files and dirs you want to copy  
 (everything will be store in the folder with name of the projectName parameter)  
