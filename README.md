@@ -18,7 +18,7 @@ Add these lines to your **build.gradle** file
 
 <pre>
 plugins {
-  id 'io.github.kostyanoy.helios-push' version '1.0.1'
+  id 'io.github.kostyanoy.helios-push' version '1.0.2'
 }
 
 helios() {
@@ -38,7 +38,7 @@ helios() {
 Kotlin DSL
 <pre>
 plugins {
-    id("io.github.kostyanoy.helios-push") version "1.0.1"
+    id("io.github.kostyanoy.helios-push") version "1.0.2"
 }
 
 tasks.helios {
